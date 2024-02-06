@@ -2,3 +2,22 @@
 
 class Library:
     
+    def __init__(self, number_of_books, books):
+        self.number_of_books = number_of_books
+        self.books = books
+
+    def show_all_books(self, books):
+        for book in books:
+            print(book)
+
+    def add_book(self):
+        book_name =  input("\nEnter the name of the new book: ")
+        books_list.append(book_name)
+
+books_list = ['Triangle', 'circle', 'square']
+
+lib_obj = Library(3, books_list)
+
+lib_obj.show_all_books(books_list)
+lib_obj.add_book()
+lib_obj.show_all_books(books_list)
