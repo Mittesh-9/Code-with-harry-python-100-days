@@ -11,8 +11,8 @@ class Library:
             print(book)
 
     def add_book(self):
-        book_name =  input("\nEnter the name of the new book: ")
-        books_list.append(book_name)
+        new_book_name =  input("\nEnter the name of the new book: ")
+        books_list.append(new_book_name)
 
 books_list = ['Triangle', 'circle', 'square']
 
